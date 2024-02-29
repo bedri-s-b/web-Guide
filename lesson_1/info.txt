@@ -1,0 +1,10 @@
+This tutorial covers the first things every developer needs to know.
+
+1.variables
+    a) DECLARATION, INITIALIZATION, ASSINGMENT
+    b) types of data
+    
+
+    //1.53
+
+
