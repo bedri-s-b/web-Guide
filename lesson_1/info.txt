@@ -5,6 +5,4 @@ This tutorial covers the first things every developer needs to know.
     b) types of data
     
 
-    //1.53
-
 
