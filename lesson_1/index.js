@@ -1,3 +1,3 @@
+let firsName = "Bedri";
 
-
-window.console.log();
+console.log("Helo", firsName + "!"+"\nHow are you?");
