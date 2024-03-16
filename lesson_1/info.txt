@@ -5,4 +5,7 @@ This tutorial covers the first things every developer needs to know.
     b) types of data
     
 
+2.sources 
+    -https://www.youtube.com/watch?v=f3uCSh6LIY0 - How to create a CSS navigation bar in 6 minutes!
+
 

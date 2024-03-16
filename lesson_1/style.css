@@ -1,5 +1,35 @@
-body{
-    background-color: #E6E6FA;
-    color: green;
+body {
+    background-color: #e4e6de;
+    color: rgb(3, 164, 3);
+    font-family: cursive;
+    margin: 0%;
+    
+}
+
+h1 {
     text-align: center;
+    color: rgb(86, 219, 33);
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(49, 171, 112);
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10%;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: aqua;
+}
+
+.navbar li{
+    float: left;
 }
