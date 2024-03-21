@@ -1,22 +1,28 @@
 body {
-    background-color: #e4e6de;
-    color: rgb(3, 164, 3);
+    background-color: #fffffa;
+    color: rgb(20, 24, 24);
     font-family: cursive;
     margin: 0%;
+   
 
 }
 
 h1 {
     text-align: center;
-    color: rgb(86, 219, 33);
+    color: rgb(104 206 157 / 71%);
+    font-size: 88%;
+ 
+}
+.navbar{
+    padding: 0px, 0px;
 }
 
 .navbar ul {
     list-style-type: none;
-    background-color: rgb(49, 171, 112);
+    background-color: rgb(104, 206, 157);
     margin: 0%;
     overflow: hidden;
-    border: solid rgb(43, 0, 255);
+    /* border: solid rgb(37, 9, 176); */
     display: flex;
     justify-content: center;
 }
@@ -33,7 +39,7 @@ h1 {
 
 .main__contect {
     padding: 0px 100px;
-    border: solid rgb(190, 32, 32)
+    /* border: solid rgb(190, 32, 32) */
 }
 
 
@@ -46,5 +52,9 @@ h1 {
 }
 
 main {
+    padding: 0px 20px;
+}
+
+p {
     padding: 0px 20px;
 }
