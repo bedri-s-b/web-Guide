@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(217, 187, 127, 0.3);
+    /* background-color: rgb(213, 255, 1); */
     color: rgb(20, 24, 24);
     font-family: cursive;
     margin: 0%;
@@ -11,6 +11,10 @@ h1 {
     text-align: center;
     color: rgb(104 206 157 / 71%);
     font-size: 88%;
+    background-color: rgba(66, 149, 165, 0.974);
+    margin: auto;
+    padding: 0.5rem;
+
 
 }
 
@@ -46,15 +50,19 @@ h1 {
 main {
     padding: 2rem;
     text-align: center;
-    background-color: rgba(16, 239, 239, 0.1);
-    /* border: solid red; */
-
+    background-image: url(assets/gettyimages-181828180_resized.jpg);
+    opacity: 0.8;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 footer {
     background-color: rgb(104, 206, 157);
-    padding:  1px;
+    padding: 1px;
+    margin: auto;
 
 }
 
@@ -62,9 +70,14 @@ p {
     font-size: 16px;
     max-width: 66ch;
     line-height: 1.5;
+    color: rgb(1, 247, 251);
     /* border: solid red; */
     text-align: center;
     margin: 1.5rem auto;
+}
+
+h3 {
+    color: rgb(147, 251, 1);
 }
 
 .home__tittle {
