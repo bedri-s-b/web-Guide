@@ -1,11 +1,8 @@
-body {
-    /* background-color: rgb(213, 255, 1); */
-    color: rgb(20, 24, 24);
-    font-family: cursive;
-    margin: 0%;
+@import url(typography.css);
 
 
-}
+
+
 
 h1 {
     text-align: center;
@@ -18,27 +15,27 @@ h1 {
 
 }
 
-.navbar {
-    padding: 0px, 0px;
-}
+
 
 .navbar ul {
     list-style-type: none;
-    background-color: rgb(104, 206, 157);
-    margin: 0%;
-    overflow: hidden;
-    /* border: solid rgb(37, 9, 176); */
-    display: flex;
-    justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(104, 206, 157);
+}
+
+ul li{
+    float: left;
 }
 
 
 .navbar a {
-    text-decoration: none;
-    padding: 0px 100px;
-    display: flex;
-    text-align: center;
-    width: 30px;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
     /* border: solid rgb(190, 32, 32) */
 }
 
@@ -50,7 +47,7 @@ h1 {
 main {
     padding: 2rem;
     text-align: center;
-    background-image: url(assets/gettyimages-181828180_resized.jpg);
+    /* background-image: url(assets/gettyimages-181828180_resized.jpg); */
     opacity: 0.8;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -66,15 +63,7 @@ footer {
 
 }
 
-p {
-    font-size: 16px;
-    max-width: 66ch;
-    line-height: 1.5;
-    color: rgb(1, 247, 251);
-    /* border: solid red; */
-    text-align: center;
-    margin: 1.5rem auto;
-}
+
 
 h3 {
     color: rgb(147, 251, 1);
