@@ -13,6 +13,17 @@ body {
 }
 
 p {
-    color: rgb(1, 247, 251);
+    color: rgb(1, 13, 251);
     padding-bottom: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(104 206 157 / 71%);
+    font-size: 88%;
+    background-color: rgba(66, 149, 165, 0.974);
+    margin: auto;
+    padding: 0.5rem;
+
+
 }

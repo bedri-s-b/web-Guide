@@ -2,46 +2,46 @@
 
 
 
-
-
-h1 {
-    text-align: center;
-    color: rgb(104 206 157 / 71%);
-    font-size: 88%;
-    background-color: rgba(66, 149, 165, 0.974);
-    margin: auto;
-    padding: 0.5rem;
-
-
+body {
+    background-color: rgba(250, 243, 226, 0.11);
 }
 
+.navbar {
+    /* position: fixed; */
+    left: 0;
+    /* bottom: 0; */
+    width: 100%;
+    background-color: rgb(104, 206, 157);
+    color: white;
+    text-align: center;
 
+}
 
 .navbar ul {
     list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(104, 206, 157);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(104, 206, 157, 0.6);
 }
 
-ul li{
+ul li {
     float: left;
 }
 
 
 .navbar a {
     display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     /* border: solid rgb(190, 32, 32) */
 }
 
 
 .navbar a:hover {
-    background-color: rgb(196, 187, 66);
+    background-color: rgb(104, 206, 157);
 }
 
 main {
@@ -56,13 +56,23 @@ main {
 
 }
 
-footer {
+/* footer {
     background-color: rgb(104, 206, 157);
     padding: 1px;
     margin: auto;
 
-}
+} */
 
+
+footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(104, 206, 157);
+    color: white;
+    text-align: center;
+}
 
 
 h3 {
