@@ -1,11 +1,20 @@
 @import url(typography.css);
 
 
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+
 
 body {
     background-color: rgba(250, 243, 226, 0.11);
      display: block;
-     border: solid black;
+     /* border: solid black; */
      /* margin: 0%; */
 }
 
@@ -28,9 +37,7 @@ h3 {
     color: rgb(147, 251, 1);
 }
 
-ul li{
-  
-}
+
 
 .navbar {
     /* position: fixed; */
