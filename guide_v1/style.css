@@ -4,6 +4,32 @@
 
 body {
     background-color: rgba(250, 243, 226, 0.11);
+     display: block;
+     border: solid black;
+     /* margin: 0%; */
+}
+
+p{
+    margin: auto;
+}
+
+footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(104, 206, 157);
+    color: white;
+    text-align: center;
+    margin: auto
+}
+
+h3 {
+    color: rgb(147, 251, 1);
+}
+
+ul li{
+  
 }
 
 .navbar {
@@ -41,43 +67,16 @@ ul li {
 
 
 .navbar a:hover {
-    background-color: rgb(104, 206, 157);
+    background-color: rgb(4, 243, 123);
 }
 
 main {
     padding: 2rem;
     text-align: center;
-    /* background-image: url(assets/gettyimages-181828180_resized.jpg); */
-    opacity: 0.8;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
-
-/* footer {
-    background-color: rgb(104, 206, 157);
-    padding: 1px;
-    margin: auto;
-
-} */
-
-
-footer {
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(104, 206, 157);
-    color: white;
-    text-align: center;
 }
 
 
-h3 {
-    color: rgb(147, 251, 1);
-}
+
 
 .home__tittle {
     text-decoration: none;
