@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Dancing Script", serif;
+    
+}
+
+article {
+    max-width: 66ch;
+    margin: 0 auto;
+}
+
+
+/* Generic Fond Families */
+#serif {
+    font-family: serif;
+}
+
+#sans-serif {
+    font-family: sans-serif;
+}
+
+#monospace {
+    font-family: monospace;
+}
+
+#cursive {
+    font-family: cursive;
+}
+
+#fantasy {
+    font-family: fantasy;
+}
