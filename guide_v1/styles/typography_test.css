@@ -1,17 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
-    font-family: "Dancing Script", serif;
-    
+    font-family: "Indie Flower", serif;
+    padding: 2em;
 }
 
 article {
     max-width: 66ch;
     margin: 0 auto;
+    padding: 2rem;
+
 }
 
+
+ul,
+ol,
+p {
+    padding-bottom: 1.5em;
+}
+
+ul,
+ol {
+    padding-left: 1.5em;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+
+h1 {
+    font-size: 2.2em
+}
+
+h2 {
+    font-size: 2em
+}
+
+h3 {
+    font-size: 1.8em
+}
+
+h4 {
+    font-size: 1.4em
+}
+
+h5 {
+    font-size: 1.2em
+}
+
+h6 {
+    font-size: 1em
+}
 
 /* Generic Fond Families */
 #serif {
