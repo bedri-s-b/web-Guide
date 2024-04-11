@@ -1,28 +1,42 @@
 @import url(typography.css);
 
-
-html{
+html {
     box-sizing: border-box;
 }
 
-*{
+* {
     box-sizing: inherit;
 }
 
-
 body {
     background-color: rgba(250, 243, 226, 0.11);
-     display: block;
-     /* border: solid black; */
-     /* margin: 0%; */
+    display: block;
 }
 
-p{
+p {
+    color: rgb(1, 13, 251);
+    padding-bottom: 1.5em;
+    max-width: 66ch;
     margin: auto;
 }
 
+h1 {
+    text-align: center;
+    color: rgb(104 206 157 / 71%);
+    font-size: 88%;
+    background-color: rgba(66, 149, 165, 0.974);
+    margin: auto;
+    padding: 0.5rem;
+
+
+}
+
+h3 {
+    color: rgb(147, 251, 1);
+}
+
 footer {
-    /* position: fixed; */
+
     left: 0;
     bottom: 0;
     width: 100%;
@@ -32,13 +46,12 @@ footer {
     margin: auto
 }
 
-
-
+ul li {
+    float: left;
+}
 
 .navbar {
-    /* position: fixed; */
     left: 0;
-    /* bottom: 0; */
     width: 100%;
     background-color: rgb(104, 206, 157);
     color: white;
@@ -54,20 +67,13 @@ footer {
     background-color: rgba(104, 206, 157, 0.6);
 }
 
-ul li {
-    float: left;
-}
-
-
 .navbar a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /* border: solid rgb(190, 32, 32) */
 }
-
 
 .navbar a:hover {
     background-color: rgb(4, 243, 123);
@@ -77,9 +83,6 @@ main {
     padding: 2rem;
     text-align: center;
 }
-
-
-
 
 .home__tittle {
     text-decoration: none;

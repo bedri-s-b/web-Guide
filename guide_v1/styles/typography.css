@@ -1,36 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Indie+Flower&family=Kalam:wght@300;400;700&display=swap');
 
 
+
+
 * {
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
+    font-size: 16px;
+    line-height: 1.5;
     font-family: "Kalam", cursive;
-    line-height: 1.4;
-    text-align: center;
-    margin: auto;
-
+    padding: 0;
+    /* margin: auto; */
 }
 
-p {
-    color: rgb(1, 13, 251);
-    padding-bottom: 1.5em;
+article {
     max-width: 66ch;
+    margin: 0 auto;
+    padding: 2rem;
+
 }
+
+
+ul,
+ol,
+p {
+    padding-bottom: 1.5em;
+    color: rgb(1, 13, 251);
+}
+
+ul,
+ol {
+    padding-left: 1.5em;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
 
 h1 {
-    text-align: center;
-    color: rgb(104 206 157 / 71%);
-    font-size: 88%;
-    background-color: rgba(66, 149, 165, 0.974);
-    margin: auto;
-    padding: 0.5rem;
+    font-size: 2.2em
+}
 
-
+h2 {
+    font-size: 2em
 }
 
 h3 {
-    color: rgb(147, 251, 1);
+    font-size: 1.8em
+}
+
+h4 {
+    font-size: 1.4em
+}
+
+h5 {
+    font-size: 1.2em
+}
+
+h6 {
+    font-size: 1em
 }
