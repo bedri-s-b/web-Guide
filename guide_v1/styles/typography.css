@@ -9,11 +9,11 @@
 }
 
 body {
-    font-size: 16px;
+    /* font-size: 16px;
     line-height: 1.5;
-    font-family: "Kalam", cursive;
+    font-family: "Kalam", cursive; */
+    font: 16px/1.5 "Kalam", cursive;
     padding: 0;
-    /* margin: auto; */
 }
 
 article {

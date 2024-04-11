@@ -8,6 +8,11 @@ html {
     box-sizing: inherit;
 }
 
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
 body {
     background-color: rgba(250, 243, 226, 0.11);
     display: block;
@@ -50,6 +55,22 @@ ul li {
     float: left;
 }
 
+blockquote{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0.3em;
+    margin-bottom: 1.5em;
+    padding: 1em;
+    font-style: italic;
+}
+
+blockquote p:last-child{
+    padding-bottom: 0;
+}
+
+blockquote p.author{
+    text-align: right;
+}
+
 .navbar {
     left: 0;
     width: 100%;
@@ -79,10 +100,7 @@ ul li {
     background-color: rgb(4, 243, 123);
 }
 
-main {
-    padding: 2rem;
-    text-align: center;
-}
+
 
 .home__tittle {
     text-decoration: none;
